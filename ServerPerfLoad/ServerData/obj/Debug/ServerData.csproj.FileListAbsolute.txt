@@ -1,0 +1,5 @@
+c:\users\mark\documents\visual studio 2013\Projects\ServerPerfLoad\ServerData\obj\Debug\ServerData.csprojResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2013\Projects\ServerPerfLoad\ServerData\bin\Debug\ServerData.dll
+c:\users\mark\documents\visual studio 2013\Projects\ServerPerfLoad\ServerData\bin\Debug\ServerData.pdb
+c:\users\mark\documents\visual studio 2013\Projects\ServerPerfLoad\ServerData\obj\Debug\ServerData.dll
+c:\users\mark\documents\visual studio 2013\Projects\ServerPerfLoad\ServerData\obj\Debug\ServerData.pdb

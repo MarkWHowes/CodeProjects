@@ -1,0 +1,41 @@
+﻿@using ServerData
+@model IEnumerable<ServerData.ServerPerfAverage>
+
+@{
+    ViewBag.Title = "PerMinute";
+}
+
+<h2>Server Performance Data For last 60 Minutes</h2>
+
+<div>
+    <table>
+        <tr>
+            <th>
+                ServerName
+            </th>
+            <th>
+                Avg CPU
+            </th>
+            <th>
+                Avg Ram
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ServerName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.avgCPU)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.avgRam)
+                </td>
+
+            </tr>
+        }
+    </table>
+</div>
+
